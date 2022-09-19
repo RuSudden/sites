@@ -1,0 +1,86 @@
+.timeline {
+	margin: 6.3rem auto;
+	width: 100%;
+	max-width: 768px;
+	position: relative;
+	display: flex;
+	&:before {
+		content: "";
+		background-color: #6A696B;
+		width: 1px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		z-index: 1;	
+	}
+}
+.timeline__title {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: @black;
+	text-transform: uppercase;
+	padding-bottom: 3.8rem;
+	&--skills {
+		padding-top: 3.2rem;
+		padding-bottom: 2.7rem;
+		font-size: 1.8rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+.timeline__col {
+	width: 50%;
+	&--left{
+		text-align: right;
+		padding-right: 4.5rem;
+	}
+	&--right{
+		padding-left: 4.5rem;
+	}
+}
+.timeline__item {
+	padding-bottom: 3.7rem;
+}
+.timeline__date {
+	font-size: 1.4rem;
+	text-decoration: underline;
+}
+.timeline__subtitle {
+	padding-top: 1.3rem;
+	padding-bottom: 0.5rem;
+	font-weight: bold;
+	color: @black;
+	font-size: 1.6rem;
+}
+.timeline__prof {
+	padding-bottom: .8rem;
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: @black;
+
+}
+.timeline__text {
+	font-size: 1.2rem;
+	color: @grey;
+	line-height: 1.5;
+	font-weight: 300;
+}
+.timeline__loc {
+	font-size: 1.4rem;
+}
+.timeline-awards__title {
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: @black; 
+}
+.timeline_item--awards {
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 3.1rem;
+}
+.timeline__awards {
+	padding-left: 2rem;
+}

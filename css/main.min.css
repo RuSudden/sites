@@ -1,0 +1,11 @@
+html{font-size:10px}
+body{margin:0;font-family:Montserrat,sans-serif;font-size:1.5rem;color:#2b2a2c}
+*,:after,:before{box-sizing:border-box}
+.container{width:100%;max-width:1171px;margin:0 auto}
+.header{padding:1.8rem 0}
+.header__inner{display:flex;justify-content:space-between}
+.user{display:flex}
+.user__avatar{width:57px;height:57px}
+.user__avatar img{border-radius:50%;border:2px solid #2b2a2c}
+.user__name{font-weight:700;font-size:1.6rem;line-height:1.8rem}
+.user__prof{font-size:1.2rem;color:rgba(43,42,44,.7)}
